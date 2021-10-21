@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+ 
+    <title>saif website</title>
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 main-header-right align-items-center">
+                        <figure>
+                            <img src="images/image-1.jpg" alt="about-image" class="img-fluid" title="about">
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-12 main-header-left">
+                        <p>this is a error page </p>
+                        <h1>
+                            due to some error <span class="text-color"> file not found </span> would you like to go to
+                            <span class="text-color"> <a href="index">home page</a></span>
+                        </h1>
+                        {{!-- <a href="/about" target="blank"> <button>about</button></a> --}}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{>footer}}
+</body>
+
+</html>
